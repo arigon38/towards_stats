@@ -1,0 +1,10 @@
+print('What is your name?')
+name = input()
+print('What is your age?')
+age = int(input())
+a100 = age + 100
+print('You will be ' + str(a100) + ' in 100 years.')
+print('How many times do you austistic?')
+rept = int(input())
+for x in range(rept):
+    print('You will be ' + str(a100) + ' in 100 years.\n')
